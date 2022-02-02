@@ -1,0 +1,5 @@
+a,b= map(int, input().split())
+k,m= map(int, input().split())
+x = list(map(int, input().split()))
+y = list(map(int, input().split()))
+print('YES' if x[k-1]<y[-m] else 'NO')
